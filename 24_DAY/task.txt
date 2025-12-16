@@ -1,0 +1,26 @@
+Coding Tasks (Mandatory)
+✅ Task 1: ArrayList
+Add 5 names
+Remove 1 name
+Update 1 name
+Print all names using for-each
+
+✅ Task 2: LinkedList
+Add integers
+Remove first + last
+Display elements
+
+✅ Task 3: Vector
+Add 5 elements
+Use capacity() and size()
+
+✅ Task 4: Stack
+Push 5 numbers
+Pop 2 numbers
+Print remaining stack
+
+✅ Task 5: Real-World Example
+Create a student list:
+Student class: name, roll
+Store 5 students in ArrayList
+Print using loop

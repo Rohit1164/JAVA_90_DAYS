@@ -1,0 +1,29 @@
+Coding Tasks (Mandatory)
+✅ Task 1: Basic Try-Catch
+Write a program to handle:
+Division by zero
+Array index out of bound
+
+✅ Task 2: Multiple Catch Blocks
+Code example:
+try {
+    // risky code
+} catch (ArithmeticException e) {
+    // handle
+} catch (ArrayIndexOutOfBoundsException e) {
+    // handle
+}
+
+✅ Task 3: Finally Block
+Write a program showing:
+try
+catch
+finally (print "Program End")
+
+✅ Task 4: Custom Exception
+Create class:
+class AgeException extends Exception
+Throw exception if age < 18.
+
+✅ Task 5: Throws Keyword
+Create a function that uses throws IOException.

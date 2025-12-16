@@ -1,0 +1,20 @@
+Coding Tasks (Mandatory)
+✅ Task 1: Abstract Class Example
+Create abstract class Shape
+abstract method: area()
+subclasses: Circle, Rectangle
+
+✅ Task 2: Interface Example
+Create interface Playable
+method: play()
+class: Guitar, Piano
+
+✅ Task 3: Multiple Inheritance
+Interface A + B
+Class C implements A, B
+
+✅ Task 4: Real-World Program
+Make a program:
+Interface: BankAccount
+Methods: deposit(), withdraw()
+Class: SavingsAccount implementing the interface

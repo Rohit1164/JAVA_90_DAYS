@@ -1,0 +1,32 @@
+Coding Tasks (Mandatory)
+✅ Task 1: Generic Class
+Create a class Container<T>:
+set()
+get()
+Use with String, Integer
+
+✅ Task 2: Generic Method
+Create method:
+<T> void display(T item)
+
+Call it with:
+Integer
+String
+Double
+
+✅ Task 3: Generic Interface
+Create interface:
+interface Storage<T>
+Class FileStorage implements it.
+
+✅ Task 4: Bounded Type
+Class:
+class NumberOperations<T extends Number>
+Method:
+square of number
+print result
+
+✅ Task 5: Wildcard (?)
+List<Integer>, List<Double>, List<Number>
+Method:
+void printList(List<?> list)

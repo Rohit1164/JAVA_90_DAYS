@@ -1,0 +1,27 @@
+Coding Tasks (Mandatory)
+✅ Task 1: HashSet
+Add 5 fruits
+Try to add duplicate → observe
+Print all elements
+
+✅ Task 2: LinkedHashSet
+Add 5 numbers
+Print → check insertion order
+
+✅ Task 3: TreeSet
+Add random numbers
+Print sorted output
+
+✅ Task 4: HashMap
+Create HashMap<Integer, String>
+Store roll → name
+Update one value
+Remove one key
+Print using loop
+
+✅ Task 5: LinkedHashMap
+Create a product list (productId → productName)
+Maintain order
+
+✅ Task 6: TreeMap
+Add 5 students in TreeMap (sorted by roll number)

@@ -1,0 +1,23 @@
+Coding Tasks (Mandatory)
+✅ Task 1: Executor with Runnable
+Create thread pool of size 3
+Submit 5 Runnable tasks
+Print thread name + task number
+
+✅ Task 2: Executor with Callable
+Create Callable that returns sum of 1–10
+Submit using executor
+Get result using Future.get()
+
+✅ Task 3: Multiple Callable Tasks
+Submit 3 Callable tasks
+Print returned values
+
+✅ Task 4: Shutdown Executor
+Properly close executor after tasks finish
+
+✅ Task 5: Real-World Example
+Order Processing System
+3 worker threads
+6 orders
+Each order processed by thread pool

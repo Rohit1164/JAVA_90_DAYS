@@ -1,0 +1,25 @@
+Task 1: Create Thread (Thread Class)
+Make class:
+class Task1 extends Thread
+Print numbers 1 to 5.
+
+✅ Task 2: Runnable Implementation
+Make class:
+class Task2 implements Runnable
+Print “Hello from Runnable” 5 times.
+
+✅ Task 3: Thread Sleep
+Print 1 → pause 1 sec → print 2 → pause 1 sec → print 3
+Use:
+Thread.sleep(1000);
+
+✅ Task 4: Multiple Threads
+Run two threads together:
+Thread A → print A 5 times
+Thread B → print B 5 times
+Observe mixed output.
+
+✅ Task 5: Thread Join
+One thread prints countdown 5 → 1
+Main thread waits using:
+t.join();

@@ -1,0 +1,30 @@
+Coding Tasks (Mandatory)
+✅ Task 1: Race Condition Example
+Without synchronization:
+2 threads deposit ₹1000 each
+Expected balance = 2000
+Result may be incorrect → observe issue
+
+✅ Task 2: Solve Using Synchronized Method
+Same code using:
+synchronized void deposit()
+Now output correct hoga.
+
+✅ Task 3: Synchronized Block
+Make:
+synchronized(obj) { ... }
+Perform withdraw/deposit.
+
+✅ Task 4: Producer–Consumer (wait/notify)
+Simple version:
+Producer → value = value + 1
+Consumer → print value
+Use wait() and notify()
+
+✅ Task 5: Deadlock Example
+Two locks:
+String lock1 = "A";
+String lock2 = "B";
+Thread-1 lock1 → lock2
+Thread-2 lock2 → lock1
+Observe freeze.

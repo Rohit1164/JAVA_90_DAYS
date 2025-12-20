@@ -1,0 +1,19 @@
+✅ Task 1: ReentrantLock
+Replace synchronized with ReentrantLock
+Bank account deposit example
+
+✅ Task 2: Semaphore
+Allow only 2 threads to access resource
+Print thread entry/exit
+
+✅ Task 3: CountDownLatch
+3 worker threads
+Main thread waits till all finish
+
+✅ Task 4: CyclicBarrier
+3 threads reach barrier
+After barrier → all proceed
+
+✅ Task 5: AtomicInteger
+Increment counter by multiple threads
+Output must be correct

@@ -1,0 +1,14 @@
+Task 1: Create File
+Create a file: data.txt
+Check if file exists
+
+✅ Task 2: Write Data (FileWriter)
+Write name, age, city into file
+
+✅ Task 3: Read Data (FileReader)
+Read file character by character
+Print on console
+
+✅ Task 4: BufferedWriter + BufferedReader
+Write 5 lines
+Read line by line

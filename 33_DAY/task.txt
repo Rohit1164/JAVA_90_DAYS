@@ -1,0 +1,25 @@
+✅ Task 1: Serializable Class
+Create class:
+Student
+- id
+- name
+- age
+
+Implements Serializable
+
+✅ Task 2: Serialization
+Create Student object
+Write object to file using ObjectOutputStream
+
+✅ Task 3: Deserialization
+Read object from file
+Print student details
+
+✅ Task 4: transient Example
+Add transient String password
+Serialize + Deserialize
+Observe password value
+
+✅ Task 5: serialVersionUID
+Add serialVersionUID
+Explain why it is used (comment)

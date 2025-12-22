@@ -1,0 +1,364 @@
+90 Days Java Backend Development – Day by Day Notes
+
+📘 PHASE 1: Core Java Fundamentals (Day 1–30)
+
+Day 1 – Java Introduction
+What is Java?
+JDK, JRE, JVM
+Java features (platform independent, OOP)
+First Java program
+Compile & Run process
+
+Day 2 – Data Types & Variables
+Primitive data types
+Size & range
+Variables & constants
+Type casting
+
+Day 3 – Operators
+Arithmetic
+Relational
+Logical
+Assignment
+Increment / Decrement
+
+Day 4 – Control Statements
+if, if-else
+nested if
+switch case
+
+Day 5 – Loops
+for loop
+while loop
+do-while
+break & continue
+
+Day 6 – Arrays
+1D array
+2D array
+Array traversal
+Common array problems
+
+Day 7 – String Basics
+String class
+String methods
+String vs StringBuilder vs StringBuffer
+
+Day 8 – Methods
+Method declaration
+Parameters & return types
+Method overloading
+
+Day 9 – OOP Introduction
+Class & Object
+Real-world examples
+Memory allocation
+
+Day 10 – Constructors
+Default constructor
+Parameterized constructor
+Constructor overloading
+
+Day 11 – Encapsulation
+private variables
+getters & setters
+Benefits of encapsulation
+
+Day 12 – Inheritance
+extends keyword
+
+IS-A relationship
+Method overriding
+
+Day 13 – Polymorphism
+Compile-time polymorphism
+Runtime polymorphism
+Upcasting & downcasting
+
+Day 14 – Abstraction
+abstract class
+abstract methods
+real-world use case
+
+Day 15 – Interface
+interface vs abstract class
+multiple inheritance
+default & static methods
+
+Day 16 – Exception Handling
+try-catch
+multiple catch
+finally
+throw vs throws
+
+Day 17 – Custom Exception
+Creating user-defined exception
+Checked vs unchecked exception
+
+Day 18 – Wrapper Classes
+Integer, Double, Character
+Autoboxing & unboxing
+
+Day 19 – Collections Framework Intro
+List, Set, Map
+Why collections?
+
+Day 20 – List Interface
+ArrayList
+LinkedList
+Common methods
+
+Day 21 – Set Interface
+HashSet
+LinkedHashSet
+TreeSet
+
+Day 22 – Map Interface
+HashMap
+LinkedHashMap
+TreeMap
+
+Day 23 – Comparable & Comparator
+Sorting objects
+compareTo()
+compare()
+
+Day 24 – Generics
+Generic classes
+Generic methods
+Advantages
+
+Day 25 – File Handling
+File class
+FileReader / FileWriter
+BufferedReader / BufferedWriter
+
+Day 26 – Multithreading
+Thread class
+Runnable interface
+Thread lifecycle
+
+Day 27 – Synchronization
+synchronized keyword
+race condition
+thread safety
+
+Day 28 – Java 8 Features
+Lambda expressions
+Functional interfaces
+
+Day 29 – Stream API
+filter
+map
+collect
+forEach
+
+Day 30 – Core Java Revision + Mini Project
+CRUD console project
+OOP + collections usage
+
+📗 PHASE 2: Database & JDBC (Day 31–45)
+
+Day 31 – DBMS Basics
+What is database
+RDBMS
+Tables, rows, columns
+
+Day 32 – SQL Basics
+SELECT
+INSERT
+UPDATE
+DELETE
+
+Day 33 – SQL Constraints
+primary key
+foreign key
+unique
+not null
+
+Day 34 – Joins
+inner join
+left join
+right join
+
+Day 35 – Normalization
+1NF
+2NF
+3NF
+
+Day 36 – JDBC Introduction
+JDBC architecture
+DriverManager
+Connection
+
+Day 37 – JDBC CRUD
+Statement
+PreparedStatement
+ResultSet
+
+Day 38 – JDBC Project
+Java + MySQL CRUD project
+
+Day 39 – DAO Pattern
+DAO structure
+Separation of logic
+
+Day 40 – Connection Pooling
+Why pooling?
+Basic idea (HikariCP)
+
+Day 41 – SQL Practice Day
+Complex queries
+joins & subqueries
+
+Day 42 – JDBC Exception Handling
+SQLException
+best practices
+
+Day 43 – JDBC Mini Project
+User management system
+
+Day 44 – Revision Day
+Java + SQL + JDBC
+
+Day 45 – Interview Questions (Java + SQL)
+
+📙 PHASE 3: Spring & Spring Boot (Day 46–75)
+
+Day 46 – Spring Framework Intro
+What is Spring
+Problems it solves
+
+Day 47 – IoC & DI
+Inversion of Control
+Dependency Injection
+
+Day 48 – Spring Annotations
+@Component
+@Autowired
+@Service
+@Repository
+
+Day 49 – Spring Boot Intro
+Why Spring Boot?
+Starter projects
+
+Day 50 – Spring Boot Project Setup
+application.properties
+main class
+
+Day 51 – REST API Basics
+REST principles
+HTTP methods
+
+Day 52 – @RestController
+@GetMapping
+@PostMapping
+
+Day 53 – Request & Response Handling
+@RequestBody
+@PathVariable
+@RequestParam
+
+Day 54 – Exception Handling
+@ExceptionHandler
+@ControllerAdvice
+
+Day 55 – Spring Data JPA
+JPA basics
+Hibernate intro
+
+Day 56 – Entity Mapping
+@Entity
+@Id
+@GeneratedValue
+
+Day 57 – Repository Layer
+JpaRepository
+CRUD methods
+
+Day 58 – Custom Queries
+@Query
+JPQL
+
+Day 59 – Pagination & Sorting
+
+Day 60 – Validation
+@NotNull
+@Email
+@Size
+
+Day 61 – DTO Concept
+DTO vs Entity
+Mapping
+
+Day 62 – Lombok
+@Getter
+@Setter
+@Data
+
+Day 63 – Logging
+SLF4J
+Log levels
+
+Day 64 – API Testing
+Postman
+JSON requests
+
+Day 65 – Spring Boot Mini Project
+User CRUD API
+
+Day 66–70 – Major Project
+Backend for Task Manager
+User → Task → Subtask
+REST APIs
+
+Day 71 – Security Intro
+Authentication
+Authorization
+
+Day 72 – Spring Security Basics
+
+Day 73 – JWT Authentication
+Token generation
+Validation
+
+Day 74 – Secured APIs
+
+Day 75 – Project Finalization
+
+📕 PHASE 4: Deployment & Interview (Day 76–90)
+
+Day 76 – Git Basics
+GitHub
+push / pull
+
+Day 77 – Project Structure & Clean Code
+
+Day 78 – Docker Basics (Optional)
+
+Day 79 – Cloud Intro
+
+AWS basics
+
+Day 80 – Deployment Basics
+
+Day 81 – Resume Backend Projects
+
+Day 82–85 – Interview Preparation
+Java
+Spring Boot
+SQL
+REST
+
+Day 86–88 – Mock Interviews
+
+Day 89 – System Design Basics
+
+Day 90 – Final Revision + Confidence Boost 🚀
+
+Agar tum chaho:
+✅ Har day ke detailed notes + examples
+✅ PDF format
+✅ Practice questions + interview Qs
+✅ Project source code

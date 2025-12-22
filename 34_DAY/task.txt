@@ -1,0 +1,19 @@
+✅ Task 1: Lambda with Runnable
+Create thread using lambda.
+
+✅ Task 2: Custom Functional Interface
+Create:
+@FunctionalInterface
+interface Calculator {
+    int operate(int a, int b);
+}
+Use lambda for add, subtract.
+
+✅ Task 3: Predicate Example
+Check number is even or odd.
+
+✅ Task 4: Consumer Example
+Print list of names.
+
+✅ Task 5: Function Example
+Convert String → Integer length.

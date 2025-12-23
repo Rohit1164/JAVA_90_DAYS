@@ -1,0 +1,20 @@
+✅ Task 1: filter()
+List of numbers → print only even numbers.
+
+✅ Task 2: map()
+List of names → convert to uppercase.
+
+✅ Task 3: sorted()
+Sort numbers:
+ascending
+descending
+
+✅ Task 4: collect()
+Filter even numbers → collect into new List.
+
+✅ Task 5: reduce()
+Sum of all numbers using reduce.
+
+✅ Task 6: groupingBy()
+Student list:
+group by department.

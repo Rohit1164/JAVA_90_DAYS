@@ -1,0 +1,18 @@
+✅ Task 1: Optional Basic
+String value ho / na ho
+Print default using orElse()
+
+✅ Task 2: Optional with ifPresent
+If value exists → print length
+
+✅ Task 3: Method Reference
+Replace lambda with method reference in forEach()
+
+✅ Task 4: Constructor Reference
+Use constructor reference to create objects
+
+✅ Task 5: Parallel Stream
+Large list of numbers
+Compare execution time:
+stream()
+parallelStream()

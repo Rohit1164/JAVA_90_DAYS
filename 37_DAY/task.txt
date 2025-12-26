@@ -1,0 +1,23 @@
+✅ Task 1: Load Driver
+Class.forName("com.mysql.cj.jdbc.Driver");
+
+✅ Task 2: Create Connection
+Connection con = DriverManager.getConnection(
+  "jdbc:mysql://localhost:3306/testdb",
+  "root",
+  "password"
+);
+
+✅ Task 3: Statement + SELECT
+Fetch all records from student table
+Print id, name, marks
+
+✅ Task 4: Insert Data
+Insert one student using Statement
+
+✅ Task 5: PreparedStatement
+Insert student using placeholders ?
+Prevent SQL Injection
+
+✅ Task 6: Close Resources
+Close ResultSet, Statement, Connection properly

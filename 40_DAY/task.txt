@@ -1,0 +1,30 @@
+✅ Task 1: Student Entity
+Student
+- id
+- name
+- marks
+
+✅ Task 2: DAO Interface
+interface StudentDao {
+   void addStudent(Student s);
+   List<Student> getAllStudents();
+   Student getStudentById(int id);
+   void updateMarks(int id, int marks);
+   void deleteStudent(int id);
+}
+
+✅ Task 3: DAO Implementation
+Use JDBC
+Use PreparedStatement
+CRUD operations
+
+✅ Task 4: Connection Pool (Conceptual)
+Create DataSource config (HikariCP style)
+Get connection from pool
+(No need to integrate fully, just structure)
+
+✅ Task 5: Test DAO
+Insert student
+Fetch all
+Update
+Delete

@@ -1,0 +1,24 @@
+✅ Task 1: INSERT (Create)
+Insert 3 students using PreparedStatement
+
+✅ Task 2: SELECT (Read)
+Fetch all students
+Print id, name, marks
+
+✅ Task 3: UPDATE
+Update marks where id = ?
+
+✅ Task 4: DELETE
+Delete student where id = ?
+
+✅ Task 5: Batch Insert
+Insert 5 students using batch processing
+Use:
+addBatch()
+executeBatch()
+
+✅ Task 6: Transaction Handling
+setAutoCommit(false)
+Execute batch
+commit()
+If error → rollback()

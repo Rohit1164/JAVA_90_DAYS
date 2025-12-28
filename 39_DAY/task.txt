@@ -1,0 +1,27 @@
+✅ Task 1: Scrollable ResultSet
+Fetch students
+Move:
+first
+last
+previous
+Print data
+
+✅ Task 2: absolute() & relative()
+Go to row 3 using absolute()
+Move 2 rows forward using relative()
+
+✅ Task 3: Updatable ResultSet
+Update marks directly from ResultSet
+Call updateRow()
+
+✅ Task 4: ResultSetMetaData
+Print:
+Total columns
+Column names
+Column types
+
+✅ Task 5: DatabaseMetaData
+Print:
+Database name
+Database version
+Driver name

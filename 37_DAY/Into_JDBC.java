@@ -1,31 +1,44 @@
 import java.sql.*;
 
-class Into_JDBC {
-  public static void main(String[] args) {
-    try {
-      Class.forName("com.mysql.cj.jdbc.Driver");
+public class Into_JDBC {
 
-      Connection con = DriverManager.getConnection(
-          "jdbc:mysql://localhost:3306/MyfirstDB",
-          "root",
-          "rohit@123");
-      PreparedStatement ps = con.prepareStatement("SELECT * FROM DB");
-      ResultSet rs = ps.executeQuery();
+    public static void main(String[] args) {
 
-      // 5. Process result
-      while (rs.next()) {
-        System.out.println(
-            rs.getInt("id") + " " +
-                rs.getString("name"));
-        System.out.println("connect Successfully");
-      }
+        try {
+            // 1. Load Driver
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
-      rs.close();
-      ps.close();
-      con.close();
+            // 2. Create Connection
+            Connection con = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/MyfirstDB",
+                    "root",
+                    "RoHiT123@#"
+            );
 
-    } catch (Exception e) {
-      e.printStackTrace();
+            // 3. SQL Query (TABLE name, NOT database name)
+            String sql = "SELECT * FROM student";   // change table name if needed
+            PreparedStatement ps = con.prepareStatement(sql);
+
+            // 4. Execute
+            ResultSet rs = ps.executeQuery();
+
+            // 5. Process Result
+            while (rs.next()) {
+                System.out.println(
+                        rs.getInt("id") + " " +
+                        rs.getString("name")
+                );
+            }
+
+            System.out.println("Connected Successfully");
+
+            // 6. Close resources
+            rs.close();
+            ps.close();
+            con.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-  }
 }

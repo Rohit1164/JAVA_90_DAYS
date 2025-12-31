@@ -1,0 +1,30 @@
+✅ Task 1: Create Simple Servlet
+Create servlet HelloServlet
+Extend HttpServlet
+Override doGet()
+Print: Hello from Servlet
+
+✅ Task 2: Servlet Mapping
+Map servlet using:
+@WebServlet("/hello")
+Access in browser:
+http://localhost:8080/project/hello
+
+✅ Task 3: Lifecycle Methods
+Override:
+init()
+destroy()
+Print messages to console to observe lifecycle.
+
+✅ Task 4: doGet vs doPost
+Create form (HTML)
+Submit data using:
+GET
+POST
+Handle both in servlet
+
+✅ Task 5: Request & Response
+Use:
+HttpServletRequest
+HttpServletResponse
+Print request parameter on browser.

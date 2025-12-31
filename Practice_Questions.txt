@@ -1,0 +1,206 @@
+🔰 BASIC JAVA (1–10)
+Print Hello World without using println.
+Swap two numbers without using a third variable.
+Check whether a number is even or odd.
+Find the largest of three numbers.
+Check if a number is prime.
+Print Fibonacci series up to n.
+Find factorial using recursion.
+Reverse an integer number.
+Check whether a string is a palindrome.
+Count vowels and consonants in a string.
+
+🔁 LOOPS & PATTERNS (11–20)
+Print a right triangle star pattern.
+Print a pyramid pattern.
+Print number patterns (123, 1234, etc.).
+Print reverse star pattern.
+Print Pascal’s triangle.
+Find sum of digits of a number.
+Print all Armstrong numbers between 1–1000.
+Print multiplication table of a number.
+Count digits in a number.
+Reverse a string using loop.
+
+📦 ARRAYS (21–30)
+Find largest element in an array.
+Find smallest element in an array.
+Reverse an array.
+Sort array without using Arrays.sort().
+Find duplicate elements in an array.
+Remove duplicate elements from array.
+Find second largest element.
+Merge two arrays.
+Check if two arrays are equal.
+Rotate array by k positions.
+
+🧵 STRINGS (31–35)
+Count frequency of each character.
+Check if two strings are anagrams.
+Reverse words in a sentence.
+Find first non-repeated character.
+Remove special characters from string.
+
+🧩 OOPS CONCEPTS (36–40)
+Implement encapsulation with validation.
+Demonstrate method overloading.
+Demonstrate method overriding.
+Create a Singleton class.
+Implement interface with multiple classes.
+
+⚠️ EXCEPTION & FILE HANDLING (41–45)
+Create custom exception.
+Handle multiple catch blocks.
+Read data from a file.
+Write data into a file.
+Use try-with-resources.
+
+🧠 COLLECTIONS (46–50)
+Find duplicate elements using HashSet.
+Sort ArrayList of objects.
+Count word frequency using HashMap.
+Implement stack using ArrayList.
+Remove elements from list while iterating.
+
+🚀 Java 8 Coding Practice Questions (50)
+
+🔹 LAMBDA & FUNCTIONAL INTERFACE (1–10)
+Write a lambda to add two numbers.
+Create a Predicate<Integer> to check even numbers.
+Create a Consumer<String> to print uppercase string.
+Create a Supplier<Double> to return random number.
+Use lambda to sort a list of integers.
+Write a custom functional interface and use lambda.
+Replace anonymous class with lambda.
+Lambda to check string length > 5.
+Lambda to print list elements.
+Lambda to find max of two numbers.
+
+🔹 STREAM API – BASIC (11–20)
+Find even numbers from a list using stream.
+Find odd numbers from a list.
+Find numbers greater than 50.
+Convert list of strings to uppercase.
+Count total elements in list using stream.
+Sort list in ascending order using stream.
+Sort list in descending order.
+Remove duplicates from list.
+Find first element of stream.
+Check if any number is divisible by 10.
+
+🔹 STREAM API – ADVANCED (21–30)
+Find maximum number from list.
+Find minimum number.
+Calculate sum of all elements.
+Calculate average of numbers.
+Find second highest number.
+Find top 3 highest numbers.
+Convert list to set using stream.
+Join list of strings with comma.
+Group strings by their length.
+Partition numbers into even & odd.
+
+🔹 MAP / FILTER / REDUCE (31–35)
+Use map() to square numbers.
+Use filter() to find strings starting with "A".
+Use reduce() to find sum of list.
+Use reduce() to find maximum.
+Chain filter + map + collect.
+
+🔹 OPTIONAL CLASS (36–40)
+Create Optional and check isPresent().
+Use orElse() vs orElseGet().
+Use ifPresent() to print value.
+Avoid NullPointerException using Optional.
+Convert nullable value into Optional safely.
+
+🔹 DATE & TIME API (41–45)
+Get current date using LocalDate.
+Get current time using LocalTime.
+Get current date & time.
+Add 10 days to current date.
+Calculate difference between two dates.
+
+🔹 METHOD REFERENCES (46–50)
+Use static method reference.
+Use instance method reference.
+Use constructor reference.
+Replace lambda with method reference.
+Method reference to print list elements.
+
+🚀 JDBC Coding Practice Questions (50)
+
+🔰 JDBC BASICS (1–10)
+Write JDBC code to connect to MySQL.
+Load JDBC driver using Class.forName().
+Create a table using JDBC.
+Insert a record using Statement.
+Insert a record using PreparedStatement.
+Fetch all records from a table.
+Fetch record using WHERE condition.
+Close Connection, Statement, ResultSet properly.
+Difference between executeQuery() and executeUpdate().
+Handle SQLException properly.
+
+🧾 CRUD OPERATIONS (11–20)
+Insert multiple records using PreparedStatement.
+Fetch all students and print id, name, marks.
+Fetch student by id.
+Update student marks by id.
+Delete student by id.
+Implement full CRUD in one class.
+Implement CRUD using DAO pattern.
+Return List<Student> from ResultSet.
+Handle duplicate primary key exception.
+Use try-with-resources in CRUD.
+
+🔄 RESULTSET ADVANCED (21–30)
+Create Scrollable ResultSet.
+Use first(), last(), previous().
+Use absolute() and relative().
+Create Updatable ResultSet.
+Update record using ResultSet.updateRow().
+Insert record using ResultSet.
+Delete record using ResultSet.
+Difference between forward-only and scrollable ResultSet.
+Use ResultSetMetaData to print column info.
+Print table structure dynamically using metadata.
+
+⚙️ TRANSACTION & BATCH (31–40)
+Disable auto-commit mode.
+Commit transaction manually.
+Rollback transaction on exception.
+Insert records using batch processing.
+Use addBatch() and executeBatch().
+Batch insert with transaction handling.
+Batch update records.
+Handle batch failure scenario.
+Difference between batch & normal insert.
+Use Savepoint in transaction.
+
+🧠 METADATA & CONNECTION POOL (41–45)
+Get database name using DatabaseMetaData.
+Get database version.
+Get driver name.
+Explain connection pooling.
+Write HikariCP configuration structure.
+
+🏗️ REAL-WORLD DESIGN (46–50)
+Implement DAO pattern using JDBC.
+Create Student entity and map ResultSet to object.
+Separate DB logic from business logic.
+JDBC vs Hibernate (coding perspective).
+JDBC mini project: Student Management System.
+
+🔥 BONUS JDBC PRACTICE
+Insert records using PreparedStatement.
+Fetch data using ResultSet.
+Implement batch processing.
+Use transaction handling.
+Implement DAO pattern.
+
+📌 HOW TO PRACTICE (BEST WAY)
+Solve 5 questions daily
+Write code without IDE auto-complete
+Add comments explaining logic
+Time yourself (10–15 mins per question)

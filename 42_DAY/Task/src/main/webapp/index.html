@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Get Post</title>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.container img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.container h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #667eea;
+}
+
+form button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #5a67d8;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+    <!-- Emoji PNG Image -->
+    <img alt="git" src="https://cdn-icons-png.flaticon.com/512/733/733553.png">
+
+    <h1>Hello G kya haal hai 😄</h1>
+
+    <form action="GetPost" method="get">
+        <input name="username" type="text" placeholder="Enter Username">
+        <input name="password" type="text" placeholder="Enter Password">
+        <button>Submit</button>
+    </form>
+
+</div>
+
+
+
+</body>
+</html>

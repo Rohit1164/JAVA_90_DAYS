@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dark Mode Form</title>
+
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.container{
+    background: #1e1e1e;
+    padding: 30px;
+    width: 360px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+}
+
+/* Emoji Image */
+.container img{
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+/* Heading */
+.container h1{
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+form input{
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #2a2a2a;
+    color: #fff;
+    font-size: 15px;
+}
+
+form input::placeholder{
+    color: #aaa;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #00c6ff;
+    box-shadow: 0 0 6px #00c6ff55;
+}
+
+/* Button */
+form button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,114,255,0.5);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Emoji PNG -->
+    <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" alt="emoji">
+
+    <h1>Hello G , kya haal hai 😎</h1>
+
+    <form action="GetPost" method="get">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Submit</button>
+    </form>
+
+</div>
+
+</body>
+</html>

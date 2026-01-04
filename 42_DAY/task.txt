@@ -1,0 +1,32 @@
+✅ Task 1: Create Simple Servlet
+Project create karo (Dynamic Web Project)
+Servlet name: HelloServlet
+Extend HttpServlet
+Override doGet()
+Browser output:
+Hello Servlet Started
+
+✅ Task 2: Annotation Mapping
+Use:
+@WebServlet("/hello")
+Access URL:
+http://localhost:8080/project-name/hello
+
+✅ Task 3: Lifecycle Check
+Override:
+init()
+destroy()
+Console me print karo:
+"Servlet Initialized"
+"Servlet Destroyed"
+
+✅ Task 4: doGet() vs doPost()
+HTML form banao
+GET se data bhejo
+POST se data bhejo
+Servlet me dono handle karo
+
+✅ Task 5: Request Parameter
+Use:
+request.getParameter("username");
+Browser pe print karo.

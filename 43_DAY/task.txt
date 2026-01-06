@@ -1,0 +1,25 @@
+✅ Task 1: Form → Servlet
+HTML form:
+username
+password
+Servlet me:
+request.getParameter("username");
+
+✅ Task 2: Login Validation
+If correct:
+forward to success.jsp
+Else:
+redirect to error.jsp
+
+✅ Task 3: Attribute Passing
+Set attribute in servlet:
+request.setAttribute("user", username);
+JSP me print karo
+
+✅ Task 4: Redirect Demo
+Button click → redirect to Google
+response.sendRedirect("https://google.com");
+
+✅ Task 5: Forward Demo
+Servlet A → forward to Servlet B
+Servlet B prints message

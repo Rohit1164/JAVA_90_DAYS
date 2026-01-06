@@ -1,7 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
 <title>Calculator</title>
 
 <style>
@@ -93,7 +94,13 @@ button:hover{
     background:#b91c1c;
 }
 
-
+/* Result text */
+.result{
+    text-align:right;
+    margin-top:15px;
+    font-size:20px;
+    color:#a5f3fc;
+}
 </style>
 </head>
 
@@ -101,20 +108,30 @@ button:hover{
 
 <form class="calculator" action="Mycalculator" method="get">
 
-    <!-- Display Inputs -->
-    <input type="text" class="display" name="value1" placeholder="First number">
-    <input type="text" class="display" name="value2" placeholder="Second number">
+    <!-- Inputs -->
+    <input class="display" type="text" name="value1" placeholder="First number">
+    <input class="display" type="text" name="value2" placeholder="Second number">
 
     <!-- Buttons -->
-    <div class="buttons">
-        <button type="submit" class="op" name="button" value="plus">+</button>
-        <button type="submit" class="op" name="button" value="min">−</button>
-        <button type="submit" class="op" name="button" value="multi">×</button>
-        <button type="submit" class="op" name="button" value="div">÷</button>
+    <div class="keys">
+        <button class="op" name="button" value="plus">+</button>
+        <button class="op" name="button" value="min">−</button>
+        <button class="op" name="button" value="multi">×</button>
+        <button class="op" name="button" value="div">÷</button>
 
         <button type="reset" class="clear">C</button>
-        <button type="submit" class="equal" name="button" value="plus">=</button>
+        <button class="equal" name="button" value="plus">=</button>
     </div>
+
+    <!-- Result -->
+    <%
+        Object res = request.getAttribute("result");
+        if(res != null){
+    %>
+        <div class="result">Result : <%= res %></div>
+    <%
+        }
+    %>
 
 </form>
 

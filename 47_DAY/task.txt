@@ -1,0 +1,23 @@
+✅ Task 1: Simple JSP Page
+Create index.jsp
+Print:
+Welcome to JSP
+
+✅ Task 2: JSP Expression
+Print current date using <%= %>
+
+✅ Task 3: JSP Scriptlet
+Write loop (1–5)
+Print numbers on page
+
+✅ Task 4: JSP Implicit Object
+Use request.getParameter()
+Print username from URL
+Example:
+index.jsp?user=Rohit
+
+✅ Task 5: Servlet → JSP Data
+Servlet me:
+request.setAttribute("msg","Hello JSP");
+JSP me print:
+<%= request.getAttribute("msg") %>

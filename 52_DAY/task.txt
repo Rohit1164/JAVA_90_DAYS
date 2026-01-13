@@ -1,0 +1,40 @@
+✅ Task 1: Student Entity
+private int id;
+private String name;
+private int marks;
+
+getters/setters
+
+✅ Task 2: DBUtil
+Create JDBC connection method
+public static Connection getConnection()
+
+✅ Task 3: DAO – Insert Student
+public boolean addStudent(Student s)
+Use PreparedStatement
+SQL:
+INSERT INTO student(name, marks) VALUES(?,?)
+
+✅ Task 4: addStudent.jsp (FORM)
+Fields:
+Name
+Marks
+<form action="student" method="post">
+
+✅ Task 5: Controller (Servlet)
+StudentController
+doPost():
+Read form data
+Create Student object
+Call DAO
+If success → redirect to /students
+Else → forward to error.jsp
+
+✅ Task 6: studentList.jsp
+Fetch list from request
+Display using JSTL
+Columns:
+ID
+Name
+Marks
+Result (Pass/Fail)

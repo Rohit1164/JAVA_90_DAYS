@@ -1,0 +1,23 @@
+✅ Task 1: Page Directive
+Import java.util.Date
+Print current date
+
+✅ Task 2: Static Include
+header.jsp
+footer.jsp
+Include in home.jsp
+
+✅ Task 3: Dynamic Include
+Include time.jsp dynamically
+Show current time
+
+✅ Task 4: Scope Demo
+Servlet:
+request.setAttribute("msg","Request Data");
+session.setAttribute("user","Admin");
+JSP:
+Print both
+
+✅ Task 5: Error Page
+JSP with divide by zero
+Redirect error to error.jsp

@@ -1,0 +1,161 @@
+✅ Task 1: ContextListener
+Implement ServletContextListener
+Print:
+"Application Started"
+"Application Stopped"
+Code --{
+  import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
+
+@WebListener
+public class AppContextListener implements ServletContextListener {
+
+    @Override
+    public void contextInitialized(ServletContextEvent sce) {
+        System.out.println("🔵 Application Started");
+    }
+
+    @Override
+    public void contextDestroyed(ServletContextEvent sce) {
+        System.out.println("🔴 Application Stopped");
+    }
+}
+
+}
+
+
+
+✅ Task 2: SessionListener
+Implement HttpSessionListener
+Maintain:
+Active users count
+Print count on create/destroy
+
+Code --{
+  import jakarta.servlet.http.HttpSessionEvent;
+import jakarta.servlet.http.HttpSessionListener;
+import jakarta.servlet.annotation.WebListener;
+
+@WebListener
+public class SessionCounterListener implements HttpSessionListener {
+
+    private static int activeUsers = 0;
+
+    @Override
+    public void sessionCreated(HttpSessionEvent se) {
+        activeUsers++;
+        System.out.println("🟢 Session Created | Active Users: " + activeUsers);
+    }
+
+    @Override
+    public void sessionDestroyed(HttpSessionEvent se) {
+        activeUsers--;
+        System.out.println("🔴 Session Destroyed | Active Users: " + activeUsers);
+    }
+}
+
+}
+
+✅ Task 3: RequestListener
+Implement ServletRequestListener
+Print:
+Request started
+Request ended
+Code --{
+  import jakarta.servlet.ServletRequestEvent;
+import jakarta.servlet.ServletRequestListener;
+import jakarta.servlet.annotation.WebListener;
+
+@WebListener
+public class RequestLifecycleListener implements ServletRequestListener {
+
+    @Override
+    public void requestInitialized(ServletRequestEvent sre) {
+        System.out.println("➡️ Request Started");
+    }
+
+    @Override
+    public void requestDestroyed(ServletRequestEvent sre) {
+        System.out.println("⬅️ Request Ended");
+    }
+}
+
+}
+
+✅ Task 4: Combine Filter + Listener
+Filter logs request URL
+Listener logs request lifecycle
+
+Code --{
+
+  import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebFilter;
+import jakarta.servlet.http.HttpServletRequest;
+import java.io.IOException;
+
+@WebFilter("/*")
+public class LoggingFilter implements Filter {
+
+    @Override
+    public void doFilter(ServletRequest req, ServletResponse res,
+                         FilterChain chain)
+            throws IOException, ServletException {
+
+        HttpServletRequest request = (HttpServletRequest) req;
+        System.out.println("📌 Filter: Requested URL -> "
+                + request.getRequestURI());
+
+        chain.doFilter(req, res);
+    }
+}
+
+}
+
+✅ Task 5: Real-world Simulation
+LoginServlet → session created
+Code --{
+  @WebServlet("/login")
+public class LoginServlet extends HttpServlet {
+
+    protected void doPost(HttpServletRequest req,
+                          HttpServletResponse resp) throws IOException {
+
+        req.getSession(); // creates session
+        resp.sendRedirect("dashboard");
+    }
+}
+
+}
+
+Dashboard → request listener triggers
+
+Code --{
+  @WebServlet("/dashboard")
+public class DashboardServlet extends HttpServlet {
+
+    protected void doGet(HttpServletRequest req,
+                         HttpServletResponse resp) throws IOException {
+
+        resp.getWriter().println("Welcome to Dashboard");
+    }
+}
+
+}
+
+Logout → session destroyed
+
+Code --{
+  @WebServlet("/logout")
+public class LogoutServlet extends HttpServlet {
+
+    protected void doGet(HttpServletRequest req,
+                         HttpServletResponse resp) throws IOException {
+
+        req.getSession().invalidate();
+        resp.sendRedirect("login.jsp");
+    }
+}
+
+}
+Observe console logs clearly.

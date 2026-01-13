@@ -1,0 +1,29 @@
+✅ Task 1: Request Parameter using EL
+URL:
+welcome.jsp?name=Rohit
+JSP:
+Welcome ${param.name}
+
+✅ Task 2: Servlet → JSP (EL)
+Servlet:
+request.setAttribute("msg","Welcome to EL");
+JSP:
+${msg}
+
+✅ Task 3: Session Attribute
+LoginServlet:
+session.setAttribute("user","Admin");
+JSP:
+Welcome ${sessionScope.user}
+
+✅ Task 4: Object Access
+Student object pass karo
+JSP me:
+${student.name}
+${student.id}
+
+✅ Task 5: Condition Check
+${empty sessionScope.user}
+Print:
+"Please login"
+Else → "Welcome user"

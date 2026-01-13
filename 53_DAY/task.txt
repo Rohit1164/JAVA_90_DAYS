@@ -1,0 +1,44 @@
+✅ Task 1: Edit Button (studentList.jsp)
+Add buttons:
+<a href="student?action=edit&id=${s.id}">Edit</a>
+<a href="student?action=delete&id=${s.id}">Delete</a>
+
+✅ Task 2: Controller – Handle Actions
+In doGet():
+String action = request.getParameter("action");
+Cases:
+edit
+delete
+default → list students
+
+✅ Task 3: Fetch Student by ID
+DAO method:
+SELECT * FROM student WHERE id = ?
+Controller:
+Get student
+Set in request
+Forward to editStudent.jsp
+
+✅ Task 4: editStudent.jsp
+Form with:
+Name (prefilled)
+Marks (prefilled)
+Hidden field:
+<input type="hidden" name="id" value="${student.id}">
+
+✅ Task 5: Update Student (doPost)
+DAO SQL:
+UPDATE student SET name=?, marks=? WHERE id=?
+
+Controller:
+Read form
+Call updateStudent()
+Redirect to /students
+
+✅ Task 6: Delete Student
+DAO SQL:
+DELETE FROM student WHERE id=?
+
+Controller:
+Call deleteStudent()
+Redirect to student list

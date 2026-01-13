@@ -1,0 +1,15 @@
+✅ Task 1: Search by Name
+Search form
+Controller handling
+DAO LIKE query
+
+✅ Task 2: Pagination
+Show 5 students per page
+Page links in JSP
+
+✅ Task 3: Combined Search + Pagination
+If keyword present → pagination on search result
+
+✅ Task 4: Empty Result Handling
+If no student found
+Show message using JSTL

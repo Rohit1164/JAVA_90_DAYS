@@ -1,0 +1,22 @@
+✅ Task 1: Login with Session
+LoginServlet
+If success:
+session.setAttribute("user", username);
+
+✅ Task 2: Dashboard Servlet
+Check:
+session.getAttribute("user");
+If null → redirect to login
+
+✅ Task 3: Logout Servlet
+Invalidate session
+session.invalidate();
+Redirect to login page
+
+✅ Task 4: Cookie Example
+Store username in cookie
+Read and print on next request
+
+✅ Task 5: Session Timeout
+Set timeout:
+session.setMaxInactiveInterval(300); // 5 min

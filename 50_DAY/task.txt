@@ -1,0 +1,25 @@
+✅ Task 1: Print Message
+Servlet:
+request.setAttribute("msg","Welcome JSTL");
+JSP:
+<c:out value="${msg}" />
+
+✅ Task 2: Conditional Display
+Print Pass / Fail using c:if
+Condition: marks ≥ 60
+
+✅ Task 3: if–else using choose
+Grade system:
+≥ 75 → Distinction
+≥ 60 → First Class
+else → Fail
+
+✅ Task 4: forEach Loop
+Print numbers 1 to 10 using c:forEach
+
+✅ Task 5: List Display
+Servlet:
+Create List<Student>
+JSP:
+Display using c:forEach
+Use EL to access properties

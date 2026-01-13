@@ -1,0 +1,24 @@
+✅ Task 1: Create AuthFilter
+Implement Filter
+Check HttpSession
+Protect:
+/dashboard
+/profile
+
+✅ Task 2: Redirect Unauthenticated User
+Agar session null → redirect to login
+
+✅ Task 3: Logging Filter
+Print:
+Requested URL
+Time taken
+
+✅ Task 4: Multiple Filters
+AuthFilter
+LogFilter
+(Observe execution order)
+
+✅ Task 5: Filter Mapping
+Map filter using:
+URL pattern
+Servlet name

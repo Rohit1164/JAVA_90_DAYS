@@ -1,0 +1,32 @@
+✅ Task 1: Model (Entity)
+Create Student.java
+id
+name
+marks
+
+✅ Task 2: DAO Layer
+Create StudentDao
+getAllStudents()
+getStudentById()
+(For now → hardcoded list OR JDBC if you want)
+
+✅ Task 3: Controller (Servlet)
+StudentController
+URL: /students
+Call DAO
+Set data in request:
+request.setAttribute("students", list);
+Forward to student.jsp
+
+✅ Task 4: View (JSP)
+student.jsp
+Use EL + JSTL
+Loop students
+Show:
+Name
+Marks
+Pass/Fail
+
+✅ Task 5: Error Handling
+If list empty → forward to error.jsp
+Show message using EL
